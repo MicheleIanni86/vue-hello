@@ -4,7 +4,11 @@ const { createApp } = Vue;
 const app = createApp({
     data() {
         return {
-            title: 'MESSAGGIO GENERATO!',
+            title: 'MESSAGGIO GENERATO CON VUE!',
+            text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam a fugit nulla! Accusamus dolorum similique dolore ipsa laudantium distinctio est cum natus, veritatis dignissimos assumenda, magni optio quis alias nam.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam a fugit nulla! Accusamus dolorum similique dolore ipsa laudantium distinctio est cum natus, veritatis dignissimos assumenda, magni optio quis alias nam.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam a fugit nulla! Accusamus dolorum similique dolore ipsa laudantium distinctio est cum natus, veritatis dignissimos assumenda, magni optio quis alias nam.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam a fugit nulla! Accusamus dolorum similique dolore ipsa laudantium distinctio est cum natus, veritatis dignissimos assumenda, magni optio quis alias nam.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam a fugit nulla! Accusamus dolorum similique dolore ipsa laudantium distinctio est cum natus, veritatis dignissimos assumenda, magni optio quis alias nam.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam a fugit nulla! Accusamus dolorum similique dolore ipsa laudantium distinctio est cum natus, veritatis dignissimos assumenda, magni optio quis alias nam.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam a fugit nulla! Accusamus dolorum similique dolore ipsa laudantium distinctio est cum natus, veritatis dignissimos assumenda, magni optio quis alias nam.',
+            image: {
+                imgVue: './img/pngwing.com.png'
+            }
         };
     }
 }).mount('#root');

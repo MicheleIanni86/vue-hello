@@ -22,18 +22,19 @@
 <body>
 <div id="root"> <!--script vuejs--> 
 
-    <div class="container mt-5 text-center">
-        <h1 class="text-white">ESERCIZIO VUEjs</h1>
+    <h1 class="text-white text-center mt-5">ESERCIZIO VUEjs</h1>
+    <div class="container mt-5 ">
         <hr class="text-white border-3 my-5">
-        <div class="row">
-            <div class="col-12">                   
-                <h1>{{ title }}</h1>
+        <div class="row d-flex justify-content-center">
+            <div class="col-8 text-white  it-overlay">                   
+                <h1 class="text-center">{{ title }}</h1>
+                <img :src="image.imgVue" :alt="image.imgVue" class="float-start w-25 mt-5 figure-img img-fluid rounded">
+                <p class="my-5 ">{{ text }}</p>
             </div>
         </div>
     </div>
 
 </div>
-
 
 
 
